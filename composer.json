@@ -1,0 +1,27 @@
+{
+	"name": "dtr/strings",
+    "description": "dTR-Strings is a string modifier class",
+    "keywords": ["string", "modifier", "dtr"],
+    "homepage": "http://bakeryframework.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Mackintosh",
+            "email": "mike@bakeryframework.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "dTR": "src/"
+        }
+    },
+   "require": {
+        "php": ">=5.4"
+    },
+    "minimum-stability": "dev",
+ 	"extra": {
+        "branch-alias": {
+            "dev-master": "0.1.0-dev"
+        }
+    }
+}
